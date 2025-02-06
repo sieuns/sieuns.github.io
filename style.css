@@ -1,0 +1,132 @@
+#intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#portfolio-title h1, #portfolio-title p {
+    margin: 0;
+}
+
+#portfolio-photo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.line {
+    border-top: 1.5px solid rgb(148, 146, 146);
+    margin: 10px 0;
+}
+
+#skill {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#skill_title h2 {
+    margin: 0;
+}
+
+#skill_list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#skill_list ul {
+    list-style-type: none;
+    display: flex;
+    gap: 120px;
+    padding: 0;
+}
+
+#skill_list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill_list_img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.portfolio_list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.portfolio h2 {
+    margin-left: 20px;
+}
+
+.portfolio_list li {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.portfolio_image {
+    flex: 0 0 300px;
+    margin-right: 20px;
+}
+
+.portfolio_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.portfolio_text {
+    flex: 1;
+    max-width: 70%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.portfolio_text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.num_portfolio {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.summary {
+    margin-bottom: 10px;
+}
+
+.file_link {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.file_link th, .file_link td {
+    padding: 8px;
+    text-align: center;
+}
+
+.file_link th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.file_link a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.file_link a:hover {
+    text-decoration: underline;
+}
